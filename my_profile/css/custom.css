@@ -1,0 +1,428 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background-color: #333;
+}
+
+body > p{
+    color: honeydew;
+    padding-left: 20px;
+}
+
+section{
+  margin-bottom: 290px;
+}
+.hero h1{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 70px;
+}
+header{
+  
+    padding-top: 15px;
+    padding-bottom: 15px;
+    right: 750;
+    position: fixed;
+}
+div .hero{
+    width: 429px;
+    height: 537px;
+    padding-bottom: 200px;
+    left: 250px;
+    padding-top: 150px;
+}
+
+.icon-bar {
+     
+    background-color: unset;
+    padding-top: 100px;
+    width: 160px;
+    padding-left: 20px;
+
+  }
+
+  
+  .icon-bar a {
+    display: block;
+    padding: 16px; 
+    color: silver;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; 
+  }
+
+  .hero {
+    width: 1190px;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    left: 300px;
+    top: 140px;
+  }
+  
+  /*.hero:before {
+    content: "";
+    background: revert;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }*/
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #dbe0e6;
+  }
+  
+  .hero p {
+    color: #ebf1f7;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .hero p span {
+    color: gold;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 300;
+  }
+  
+  .social-links >a {
+        padding-right: 20px;
+        color: lemonchiffon;
+        transition: 0.3s ;
+        display: inline block;
+  }
+  
+  .social-links> a:hover{
+    color: rgb(154, 231, 214);
+
+
+  }
+  .social-links{
+    padding-top: 20px;
+  }
+
+section.about{
+  color: #cae4c1;
+  margin-left: 290px;
+  text-align: center;
+  margin-right: 64px;
+  
+}
+.obj{
+  font: inherit;
+    font-size: 75px;
+    font-family: 'FontAwesome';
+    padding-bottom: 30px;
+}
+
+#skills{
+    text-align: center;
+    margin-left: 290px;
+    margin-right: 85px;
+    padding-top: 80px;
+    margin-bottom: 290px;
+}
+.skills h1{
+  margin-bottom: 18px;
+  font: inherit;
+  font-size: 66px;
+  font-family: 'FontAwesome';
+  padding-bottom: 18px;
+  color: #cae4c1;
+}
+section div.content1{
+  font-size: 30px;
+  color: navajowhite;
+  font-family: monospace;
+}
+
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 12px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 300;
+  font-family: serif;
+  font-size: 25px;
+  color: darkkhaki;
+  padding-bottom: 9px;
+
+}
+
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: oblique;
+  color: greenyellow;
+  font-size: 27px;
+}
+
+.skills .progress-bar-wrap {
+  background: #f2f3f5;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 8px;
+  transition: .9s;
+  background-color: #87b950;
+}
+
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+
+section.resume{
+  margin-left: 290px;
+}
+h2{
+  text-align: center;
+  margin-bottom: 18px;
+  font: inherit;
+  font-size: 66px;
+  font-family: 'FontAwesome';
+  padding-bottom: 18px;
+  color: #cae4c1;
+  padding-right: 30px ;
+}
+
+.resume .resume-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #bac1c7;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #dcd479;
+  position: relative;
+  color: gold;
+}
+
+.resume .resume-item h4 {
+  line-height: 36px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #56da7f;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: transparent;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+.cv{
+  color: #bac1c7;
+  font-size: xx-large;
+  color: aqua;
+}
+
+footer{
+  text-align: center;
+  color: bisque;
+  font-size: initial;
+  background-color: #4a4847;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+  width: 1490px;
+  width: 1490px;
+  padding-left: 0px;
+  padding-right: 145px;
+}
+footer h3{
+  text-align: center;
+}
+
+.social >a {
+    padding-right: 20px;
+    color: lemonchiffon;
+    transition: 0.3s ;
+    display: inline block;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.social{
+  padding-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social> a:hover{
+color: rgb(154, 231, 214);
+
+
+}
+.social{
+padding-top: 20px;
+margin-bottom: 9px;
+
+}
+
+@media (max-width: 770px) { 
+  
+header{
+    position: fixed;
+    width: 75px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    top: -300px;
+    bottom: 0px;
+}
+.icon-bar{
+  background-color: unset;
+  padding-top: 85px;
+  width: 0px;
+  padding-left: 0px;
+  text-align: center;
+  width: 75px;
+}
+.icon-bar a{
+  font-size: 15px;
+  padding: 16px;
+}
+.hero{
+  left: 110px;
+  font-size: 15px;
+  height: 250px;
+  top: 0px;
+  margin-top: 50px;
+}
+.hero h1{
+  font-size: 40px;
+}
+.hero p {
+  font-size: 18px;
+  margin: 1px 0 0 0;
+  width: 601px;
+}
+section.about{
+  margin-left: 70px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+}
+.obj{
+  font-size: 40px;
+  padding-bottom: 0px;
+}
+section div.content1{
+  width: 610px;
+  font-size: 20px;
+}
+#skills{
+  
+  width: 787px;
+  margin-left: -8px;
+  margin-right: 0px;
+  height: 380px;
+  margin-bottom: 130px;
+  padding-left: 0px;
+
+}
+
+.skills h1{
+  margin-bottom: 3px;
+  padding-bottom: 18px;
+  font-size: 40px;
+}
+.skills .progress{
+  height: 35px;
+}
+.skills .progress .skill{
+  padding: 6px 0px;
+  margin: 0 0 1px 0;
+  font-weight: 100;
+  font-size: 18px;
+  padding-bottom: 9px;
+}
+.skills .progress .skill .val{
+  font-size: 18px;
+}
+section.resume{
+  margin-left: 70px;
+  margin-bottom: 120px;
+}
+.section-title h2{
+  margin-bottom: -20px;
+  font-size: 40px;
+  padding-bottom: 10px;
+  
+}
+.resume .resume-title {
+  font-size: 34px;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+.resume .resume-item h4{
+  line-height: 36px;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.resume .resume-item > p{
+  margin-bottom: 0.5rem;
+}
+.cv{
+  font-size: larger;
+  padding-left: 70px;
+}
+footer{
+  
+  padding-bottom: 50px;
+  padding-right: 0px;
+  width: 755px;
+  height: 310px;
+
+}
+
+}
